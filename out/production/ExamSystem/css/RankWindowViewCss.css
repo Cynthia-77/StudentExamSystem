@@ -1,0 +1,27 @@
+/*设置表格字体大小*/
+.table-view .column-header .label{
+    -fx-font-size: 17;
+}
+
+/*设置表格头高度*/
+.table-view > .column-header-background{
+    -fx-pref-height: 30;
+}
+
+/*设置每一列内容居中，每一行高度*/
+.table-row-cell{
+    -fx-cell-size: 30px;
+    -fx-alignment: center;
+}
+
+#tableView{
+    -fx-table-cell-border-color:transparent;
+    -fx-border-color: white;
+    -fx-alignment: center;
+}
+
+/*设置每一列内容居中*/
+#tableView .table-column{
+  -fx-alignment: center;
+  -fx-font-size: 13;
+}
