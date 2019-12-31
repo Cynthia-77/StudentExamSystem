@@ -5,10 +5,73 @@
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.canvas.Canvas?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="application.ExamWindowController"
-            prefHeight="700.0" prefWidth="1100.0">
+            prefHeight="700.0" prefWidth="1300.0">
+    <VBox layoutX="10.0" layoutY="10.0" prefHeight="700.0" prefWidth="1300.0" spacing="10">
+        <children>
+            <HBox alignment="TOP_CENTER">
+                <children>
+                    <Label text="College English Test (Simple Version)">
+                        <font>
+                            <Font size="30" name="Arial"/>
+                        </font>
+                    </Label>
+                </children>
+            </HBox>
+            <VBox>
+                <children>
+                    <Label text="   This is a simple English online test for college students. The test concludes simple selections, multiple choice questions, true or false and translation. The total score is 100 points."
+                           wrapText="true">
+                        <font>
+                            <Font size="17.5" name="Arial"/>
+                        </font>
+                    </Label>
+                    <Label text="   Please click on the submit button after you finish it, and then your score will be given back."
+                           wrapText="true">
+                        <font>
+                            <Font size="17.5" name="Arial"/>
+                        </font>
+                    </Label>
+                </children>
+            </VBox>
+            <VBox>  <!--第1题-->
+                <children>
+                    <Label fx:id="question1Text" text="">
+                        <font>
+                            <Font name="Arial" size="17.8"/>
+                        </font>
+                    </Label>
+                    <HBox spacing="100">
+                        <children>
+                            <RadioButton fx:id="btn_question1A" mnemonicParsing="false" text="">
+                                <font>
+                                    <Font size="18" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question1B" mnemonicParsing="false" text="">
+                                <font>
+                                    <Font size="18" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question1C" mnemonicParsing="false" text="">
+                                <font>
+                                    <Font size="18" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question1D" mnemonicParsing="false" text="">
+                                <font>
+                                    <Font size="18" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                        </children>
+                    </HBox>
+                </children>
+            </VBox>
 
+        </children>
+    </VBox>
 </AnchorPane>
