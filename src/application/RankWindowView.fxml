@@ -28,7 +28,7 @@
                     </Label>
                     <TableView fx:id="tableView" GridPane.columnIndex="0" GridPane.rowIndex="1">
                         <columns>
-                            <TableColumn fx:id="colName" text="姓名" maxWidth="260.0" minWidth="60.0" prefWidth="140.0"/>
+                            <TableColumn fx:id="colRank" text="排名" maxWidth="260.0" minWidth="60.0" prefWidth="140.0"/>
                             <TableColumn fx:id="colAccount" text="学号" maxWidth="260.0" minWidth="60.0" prefWidth="140.0"/>
                             <TableColumn fx:id="colScore" text="成绩" maxWidth="260.0" minWidth="60.0" prefWidth="140.0"/>
                         </columns>

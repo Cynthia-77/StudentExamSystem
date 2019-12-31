@@ -28,7 +28,7 @@
                     </Label>
                     <TableView fx:id="tableView" GridPane.columnIndex="0" GridPane.rowIndex="1">
                         <columns>
-                            <TableColumn fx:id="colName" text="姓名" maxWidth="260.0" minWidth="60.0" prefWidth="140.0"/>
+                            <TableColumn fx:id="colRank" text="排名" maxWidth="260.0" minWidth="60.0" prefWidth="140.0"/>
                             <TableColumn fx:id="colAccount" text="学号" maxWidth="260.0" minWidth="60.0" prefWidth="140.0"/>
                             <TableColumn fx:id="colScore" text="成绩" maxWidth="260.0" minWidth="60.0" prefWidth="140.0"/>
                         </columns>
@@ -54,16 +54,3 @@
     </VBox>
 
 </AnchorPane>
-
-
-
-        <!--    <VBox layoutX="30.0" layoutY="25.0" prefHeight="400.0" prefWidth="700.0" spacing="60">-->
-        <!--        <children>-->
-        <!--            <Label text="排行榜" alignment="CENTER">-->
-        <!--                <font>-->
-        <!--                    <Font size="23.0"/>-->
-        <!--                </font>-->
-        <!--            </Label>-->
-
-        <!--        </children>-->
-        <!--    </VBox>-->

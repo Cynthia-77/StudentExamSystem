@@ -8,7 +8,12 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import repository.IPersonRepository;
+import repository.Person;
+import repository.PersonRepository;
+
 import java.net.URL;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class RankWindowController implements Initializable {
@@ -21,7 +26,7 @@ public class RankWindowController implements Initializable {
     @FXML
     private TableView tableView;
     @FXML
-    private TableColumn colName;
+    private TableColumn colRank;
     @FXML
     private TableColumn colAccount;
     @FXML
@@ -29,16 +34,16 @@ public class RankWindowController implements Initializable {
 
     public void showList() {
         ObservableList<Person> list = FXCollections.observableArrayList();
-        Person person = new Person();  //构建值对象
-        person.setName("小六");
-        person.setAccount("123");
-        person.setScore("99");
+        IPersonRepository repository = new PersonRepository();
+        List<Person> persons = repository.getPersons();
+        for (Person person:persons){  //构建值对象
 
-        colName.setCellValueFactory(new PropertyValueFactory("Name"));  //映射
-        colAccount.setCellValueFactory(new PropertyValueFactory("account"));
-        colScore.setCellValueFactory(new PropertyValueFactory("score"));
+            colRank.setCellValueFactory(new PropertyValueFactory("rank"));  //映射
+            colAccount.setCellValueFactory(new PropertyValueFactory("account"));
+            colScore.setCellValueFactory(new PropertyValueFactory("score"));
 
-        list.add(person);  //list添加值对象
+            list.add(person);  //list添加值对象
+        }
         tableView.setItems(list); //tableView添加list
     }
 

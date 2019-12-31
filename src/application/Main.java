@@ -6,15 +6,14 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.GridPane;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
+import repository.Person;
 
 import java.io.IOException;
-import java.net.URL;
-import java.util.GregorianCalendar;
 
 public class Main extends Application {
+
+    Person user;
 
     private Stage primaryStage;
 
@@ -47,11 +46,13 @@ public class Main extends Application {
     public void userLogin(String account, String password) {
         if (Check.loginCheck(account, password)) {
             String name = Check.checkName(account);
-            String score = String.valueOf(Check.checkScore(account));
+            String score = Check.checkScore(account);
+            String rank = Check.checkRank(account);
             user = new Person();
             user.setAccount(account);
             user.setName(name);
             user.setScore(score);
+            user.setRank(rank);
             showMainWindow(account, name);
             //关闭主窗体
             primaryStage.close();
@@ -141,8 +142,8 @@ public class Main extends Application {
         //已参加过考试
         if (Check.checkHaveScore(account)) {
             String name = Check.checkName(account);
-            String score = String.valueOf(Check.checkScore(account));
-            String rank = String.valueOf(Check.checkRank(account));
+            String score = Check.checkScore(account);
+            String rank = Check.checkRank(account);
             showCheckScoreWindow(account, name, score, rank);
             mainStage.close();
         }
@@ -220,8 +221,6 @@ public class Main extends Application {
         showMainWindow(user.getAccount(),user.getName());
         rankStage.close();
     }
-
-    Person user;
 
     public static void main(String[] args) {
         launch(args);

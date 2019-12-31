@@ -4,6 +4,8 @@ public class Person {
     private String name;
     private String account;
     private String score;
+    private String rank;
+    private String password;
 
     public String getName() {
         return name;
@@ -22,5 +24,11 @@ public class Person {
     }
     public void setScore(String score){
         this.score = score;
+    }
+    public String getRank() {
+        return rank;
+    }
+    public void setRank(String rank) {
+        this.rank = rank;
     }
 }

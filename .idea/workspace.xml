@@ -2,14 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a294c51f-530e-453e-9fa5-43bc53dd9c49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/StudentExamSystem/lib/sqlite-jdbc-3.30.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentExamSystem/src/check/Connect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sqlite-jdbc-3.30.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/IPersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/PersonRepositoryHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/Question.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExamSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExamSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/application/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/application/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/check/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/check/Check.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/ExamWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/application/ExamWindowController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/ExamWindowView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/application/ExamWindowView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/application/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/RankWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/application/RankWindowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/RankWindowView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/application/RankWindowView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/check/Check.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/check/Check.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/ExamWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ExamWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/ExamWindowView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ExamWindowView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/RankWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/RankWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/RankWindowView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/RankWindowView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/check/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/check/Check.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +42,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="XSLT Stylesheet" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,7 +59,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/sqlite-jdbc-3.30.1.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
@@ -46,7 +71,20 @@
       <recent name="D:\code\JAVA\ExamSystem\src\application" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Connect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="check.Connect" />
+      <module name="ExamSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="check.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="application.Main" />
       <module name="ExamSystem" />
@@ -57,6 +95,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Connect" />
       </list>
     </recent_temporary>
   </component>
@@ -106,49 +145,60 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577509650219" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1577422511587">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1577797587578">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577422511587" />
-    <state width="1493" height="142" key="GridCell.Tab.0.bottom" timestamp="1577634711821">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577797587578" />
+    <state width="1493" height="176" key="GridCell.Tab.0.bottom" timestamp="1577804234824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="142" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577634711821" />
-    <state width="1493" height="142" key="GridCell.Tab.0.center" timestamp="1577634711821">
+    <state width="1493" height="176" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577804234824" />
+    <state width="1493" height="176" key="GridCell.Tab.0.center" timestamp="1577804234823">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="142" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577634711821" />
-    <state width="1493" height="142" key="GridCell.Tab.0.left" timestamp="1577634711821">
+    <state width="1493" height="176" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577804234823" />
+    <state width="1493" height="176" key="GridCell.Tab.0.left" timestamp="1577804234823">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="142" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577634711821" />
-    <state width="1493" height="142" key="GridCell.Tab.0.right" timestamp="1577634711821">
+    <state width="1493" height="176" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577804234823" />
+    <state width="1493" height="176" key="GridCell.Tab.0.right" timestamp="1577804234823">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="142" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577634711821" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1577626653571">
+    <state width="1493" height="176" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577804234823" />
+    <state width="1493" height="176" key="GridCell.Tab.1.bottom" timestamp="1577804234824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577626653571" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1577626653571">
+    <state width="1493" height="176" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577804234824" />
+    <state width="1493" height="176" key="GridCell.Tab.1.center" timestamp="1577804234824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577626653571" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1577626653570">
+    <state width="1493" height="176" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577804234824" />
+    <state width="1493" height="176" key="GridCell.Tab.1.left" timestamp="1577804234824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577626653570" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1577626653571">
+    <state width="1493" height="176" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577804234824" />
+    <state width="1493" height="176" key="GridCell.Tab.1.right" timestamp="1577804234824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577626653571" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1577622534701">
+    <state width="1493" height="176" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577804234824" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1577797601702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577622534701" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577797601702" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1577800432232">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1577800432232" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1577630912005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1577630912005" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="persons" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
