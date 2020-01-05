@@ -5,16 +5,230 @@
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.geometry.Insets?>
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="application.ExamWindowController"
-            prefHeight="700.0" prefWidth="1100.0">
-    <VBox layoutX="10.0" layoutY="10.0" prefHeight="700.0" prefWidth="1100.0" spacing="60">
+            prefHeight="700.0" prefWidth="1300.0">
+    <VBox layoutX="10.0" layoutY="10.0" prefHeight="700.0" prefWidth="1300.0" spacing="20">
         <children>
-            <Label text="">
-
-            </Label>
+            <HBox alignment="TOP_CENTER">
+                <children>
+                    <Label text="College English Test (Simple Version)">
+                        <font>
+                            <Font size="30" name="Arial"/>
+                        </font>
+                    </Label>
+                </children>
+            </HBox>
+            <VBox>
+                <children>
+                    <Label text="   This is a simple English test for college students. The test only concludes simple selections. The total score is 100 points."
+                           wrapText="true">
+                        <font>
+                            <Font size="17.5" name="Arial"/>
+                        </font>
+                    </Label>
+                    <Label text="   Please click on the submit button after you finish it, and then your score will be given back."
+                           wrapText="true">
+                        <font>
+                            <Font size="17.5" name="Arial"/>
+                        </font>
+                    </Label>
+                    <Label text="" wrapText="true">
+                        <font>
+                            <Font size="5"/>
+                        </font>
+                    </Label>
+                    <Label text="   Directions: There are 5 questions. For each of them, there are four choices marked A, B, C and D. You should decide on the best choice. Each question is 20 points."
+                           wrapText="true">
+                        <font>
+                            <Font size="17.5" name="Arial"/>
+                        </font>
+                    </Label>
+                </children>
+            </VBox>
+            <VBox>  <!--第1题-->
+                <children>
+                    <Label fx:id="question1Text" text="">
+                        <font>
+                            <Font name="Arial" size="17.8"/>
+                        </font>
+                    </Label>
+                    <HBox spacing="10">
+                        <children>
+                            <RadioButton fx:id="btn_question1A" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question1B" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question1C" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question1D" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                        </children>
+                    </HBox>
+                </children>
+            </VBox>
+            <VBox>  <!--第2题-->
+                <children>
+                    <Label fx:id="question2Text" text="">
+                        <font>
+                            <Font name="Arial" size="17.8"/>
+                        </font>
+                    </Label>
+                    <HBox spacing="10">
+                        <children>
+                            <RadioButton fx:id="btn_question2A" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question2B" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question2C" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question2D" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                        </children>
+                    </HBox>
+                </children>
+            </VBox>
+            <VBox>  <!--第3题-->
+                <children>
+                    <Label fx:id="question3Text" text="">
+                        <font>
+                            <Font name="Arial" size="17.8"/>
+                        </font>
+                    </Label>
+                    <HBox spacing="10">
+                        <children>
+                            <RadioButton fx:id="btn_question3A" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question3B" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question3C" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question3D" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                        </children>
+                    </HBox>
+                </children>
+            </VBox>
+            <VBox>  <!--第4题-->
+                <children>
+                    <Label fx:id="question4Text" text="">
+                        <font>
+                            <Font name="Arial" size="17.8"/>
+                        </font>
+                    </Label>
+                    <HBox spacing="10">
+                        <children>
+                            <RadioButton fx:id="btn_question4A" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question4B" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question4C" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question4D" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                        </children>
+                    </HBox>
+                </children>
+            </VBox>
+            <VBox>  <!--第5题-->
+                <children>
+                    <Label fx:id="question5Text" text="">
+                        <font>
+                            <Font name="Arial" size="17.8"/>
+                        </font>
+                    </Label>
+                    <HBox spacing="10">
+                        <children>
+                            <RadioButton fx:id="btn_question5A" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question5B" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question5C" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                            <RadioButton fx:id="btn_question5D" mnemonicParsing="false" text="" prefWidth="300">
+                                <font>
+                                    <Font size="17.8" name="Arial"/>
+                                </font>
+                            </RadioButton>
+                        </children>
+                    </HBox>
+                </children>
+            </VBox>
+            <HBox prefHeight="100" prefWidth="1300" alignment="BOTTOM_CENTER">
+                <children>
+                    <Button id="btn_submit" mnemonicParsing="false" text="提交" onAction="#Submit" prefWidth="60.0">
+                        <font>
+                            <Font size="15.0"/>
+                        </font>
+                        <effect>
+                            <DropShadow/>
+                        </effect>
+                    </Button>
+                </children>
+            </HBox>
         </children>
     </VBox>
 </AnchorPane>

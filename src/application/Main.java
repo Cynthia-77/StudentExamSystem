@@ -6,15 +6,17 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.GridPane;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
-
+import repository.IPersonRepository;
+import repository.Person;
+import repository.PersonRepository;
 import java.io.IOException;
-import java.net.URL;
-import java.util.GregorianCalendar;
+import java.util.Collections;
+import java.util.List;
 
 public class Main extends Application {
+
+    Person user;
 
     private Stage primaryStage;
 
@@ -47,11 +49,13 @@ public class Main extends Application {
     public void userLogin(String account, String password) {
         if (Check.loginCheck(account, password)) {
             String name = Check.checkName(account);
-            String score = String.valueOf(Check.checkScore(account));
+            String score = Check.checkScore(account);
+            String rank = Check.checkRank(account);
             user = new Person();
             user.setAccount(account);
             user.setName(name);
             user.setScore(score);
+            user.setRank(rank);
             showMainWindow(account, name);
             //关闭主窗体
             primaryStage.close();
@@ -136,13 +140,34 @@ public class Main extends Application {
         }
     }
 
+    public void userSubmit(int score) {
+        user.setScore(String.valueOf(score));
+        IPersonRepository repository = new PersonRepository();
+        repository.updateScore(user);
+        //repository.sortPerson();
+        //Person person = repository.getPerson(user.getAccount());
+        //String rank = person.getRank();
+        //user.setRank(rank);
+        String rank = Check.checkRank(user.getAccount());
+        user.setRank(rank);
+
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("成绩");
+        alert.setHeaderText(null);
+        alert.setContentText("成绩：" + score);
+        alert.showAndWait();
+
+        showMainWindow(user.getAccount(), user.getName());
+        examStage.close();
+    }
+
     //用户查询考试成绩
     public void userCheckScore(String account) {
         //已参加过考试
         if (Check.checkHaveScore(account)) {
             String name = Check.checkName(account);
-            String score = String.valueOf(Check.checkScore(account));
-            String rank = String.valueOf(Check.checkRank(account));
+            String score = Check.checkScore(account);
+            String rank = Check.checkRank(account);
             showCheckScoreWindow(account, name, score, rank);
             mainStage.close();
         }
@@ -216,12 +241,10 @@ public class Main extends Application {
         }
     }
 
-    public void rankBackToMain(){
-        showMainWindow(user.getAccount(),user.getName());
+    public void rankBackToMain() {
+        showMainWindow(user.getAccount(), user.getName());
         rankStage.close();
     }
-
-    Person user;
 
     public static void main(String[] args) {
         launch(args);
