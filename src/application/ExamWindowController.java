@@ -1,18 +1,27 @@
 package application;
 
+<<<<<<< HEAD
 import javafx.event.ActionEvent;
+=======
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.stage.Stage;
+<<<<<<< HEAD
 import repository.IQuestionRepository;
 import repository.Question;
 import repository.QuestionRepository;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+=======
+import repository.Question;
+
+import java.net.URL;
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
 import java.util.ResourceBundle;
 
 public class ExamWindowController implements Initializable {
@@ -24,8 +33,13 @@ public class ExamWindowController implements Initializable {
 
     private Stage stage;
 
+<<<<<<< HEAD
     public void init(Main main, Stage stage) {
         this.stage = stage;
+=======
+    public void init(Main main,Stage stage) {
+        this.stage=stage;
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
     }
 
     @FXML
@@ -38,6 +52,7 @@ public class ExamWindowController implements Initializable {
     private RadioButton btn_question1C;
     @FXML
     private RadioButton btn_question1D;
+<<<<<<< HEAD
     @FXML
     private Label question2Text;
     @FXML
@@ -209,17 +224,37 @@ public class ExamWindowController implements Initializable {
         btn_question5B.setText(questions.get(4).getOptionB());
         btn_question5C.setText(questions.get(4).getOptionC());
         btn_question5D.setText(questions.get(4).getOptionD());
+=======
+
+    public void showQuestions(){
+        Question question1 = new Question();
+        question1.setNum("1");
+        question1.setText("Do you like this system?");
+        question1.setOptionA("yes");
+        question1.setOptionB("okay");
+        question1.setOptionC("a little");
+        question1.setOptionD("no");
+        question1Text.setText(question1.getText());
+        btn_question1A.setText(question1.getOptionA());
+        btn_question1B.setText(question1.getOptionB());
+        btn_question1C.setText(question1.getOptionC());
+        btn_question1D.setText(question1.getOptionD());
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
     }
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         showQuestions();
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
         final ToggleGroup group1 = new ToggleGroup();
         btn_question1A.setToggleGroup(group1);
         btn_question1B.setToggleGroup(group1);
         btn_question1C.setToggleGroup(group1);
         btn_question1D.setToggleGroup(group1);
+<<<<<<< HEAD
 
         final ToggleGroup group2 = new ToggleGroup();
         btn_question2A.setToggleGroup(group2);
@@ -244,5 +279,7 @@ public class ExamWindowController implements Initializable {
         btn_question5B.setToggleGroup(group5);
         btn_question5C.setToggleGroup(group5);
         btn_question5D.setToggleGroup(group5);
+=======
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
     }
 }

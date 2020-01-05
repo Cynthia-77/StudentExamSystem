@@ -13,7 +13,11 @@ public class PersonRepositoryHelper {
         person.setAccount(rs.getString("account"));
         person.setName(rs.getString("name"));
         person.setScore(rs.getString("score"));
+<<<<<<< HEAD
 //      person.setRank(String.valueOf(rs.getInt("rank")));
+=======
+        person.setRank(String.valueOf(rs.getInt("rank")));
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
         person.setPassword(rs.getString("password"));
         return person;
     }

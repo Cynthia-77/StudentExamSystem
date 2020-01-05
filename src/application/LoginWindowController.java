@@ -3,8 +3,15 @@ package application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+<<<<<<< HEAD
 import javafx.scene.control.TextField;
 import javafx.scene.control.PasswordField;
+=======
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+import javafx.scene.control.PasswordField;
+
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
 import java.net.URL;
 import java.util.ResourceBundle;
 

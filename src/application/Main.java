@@ -7,12 +7,18 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+<<<<<<< HEAD
 import repository.IPersonRepository;
 import repository.Person;
 import repository.PersonRepository;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
+=======
+import repository.Person;
+
+import java.io.IOException;
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
 
 public class Main extends Application {
 
@@ -140,6 +146,7 @@ public class Main extends Application {
         }
     }
 
+<<<<<<< HEAD
     public void userSubmit(int score) {
         user.setScore(String.valueOf(score));
         IPersonRepository repository = new PersonRepository();
@@ -161,6 +168,8 @@ public class Main extends Application {
         examStage.close();
     }
 
+=======
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
     //用户查询考试成绩
     public void userCheckScore(String account) {
         //已参加过考试
@@ -241,8 +250,13 @@ public class Main extends Application {
         }
     }
 
+<<<<<<< HEAD
     public void rankBackToMain() {
         showMainWindow(user.getAccount(), user.getName());
+=======
+    public void rankBackToMain(){
+        showMainWindow(user.getAccount(),user.getName());
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
         rankStage.close();
     }
 

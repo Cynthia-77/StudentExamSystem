@@ -8,13 +8,20 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.canvas.Canvas?>
 
+<<<<<<< HEAD
 <?import javafx.scene.effect.DropShadow?>
 <?import javafx.geometry.Insets?>
+=======
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="application.ExamWindowController"
             prefHeight="700.0" prefWidth="1300.0">
+<<<<<<< HEAD
     <VBox layoutX="10.0" layoutY="10.0" prefHeight="700.0" prefWidth="1300.0" spacing="20">
+=======
+    <VBox layoutX="10.0" layoutY="10.0" prefHeight="700.0" prefWidth="1300.0" spacing="10">
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
         <children>
             <HBox alignment="TOP_CENTER">
                 <children>
@@ -27,7 +34,11 @@
             </HBox>
             <VBox>
                 <children>
+<<<<<<< HEAD
                     <Label text="   This is a simple English test for college students. The test only concludes simple selections. The total score is 100 points."
+=======
+                    <Label text="   This is a simple English online test for college students. The test concludes simple selections, multiple choice questions, true or false and translation. The total score is 100 points."
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
                            wrapText="true">
                         <font>
                             <Font size="17.5" name="Arial"/>
@@ -39,6 +50,7 @@
                             <Font size="17.5" name="Arial"/>
                         </font>
                     </Label>
+<<<<<<< HEAD
                     <Label text="" wrapText="true">
                         <font>
                             <Font size="5"/>
@@ -50,6 +62,8 @@
                             <Font size="17.5" name="Arial"/>
                         </font>
                     </Label>
+=======
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
                 </children>
             </VBox>
             <VBox>  <!--第1题-->
@@ -59,6 +73,7 @@
                             <Font name="Arial" size="17.8"/>
                         </font>
                     </Label>
+<<<<<<< HEAD
                     <HBox spacing="10">
                         <children>
                             <RadioButton fx:id="btn_question1A" mnemonicParsing="false" text="" prefWidth="300">
@@ -161,21 +176,38 @@
                     <HBox spacing="10">
                         <children>
                             <RadioButton fx:id="btn_question4A" mnemonicParsing="false" text="" prefWidth="300">
+=======
+                    <HBox spacing="100">
+                        <children>
+                            <RadioButton fx:id="btn_question1A" mnemonicParsing="false" text="">
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
                                 <font>
                                     <Font size="17.8" name="Arial"/>
                                 </font>
                             </RadioButton>
+<<<<<<< HEAD
                             <RadioButton fx:id="btn_question4B" mnemonicParsing="false" text="" prefWidth="300">
+=======
+                            <RadioButton fx:id="btn_question1B" mnemonicParsing="false" text="">
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
                                 <font>
                                     <Font size="17.8" name="Arial"/>
                                 </font>
                             </RadioButton>
+<<<<<<< HEAD
                             <RadioButton fx:id="btn_question4C" mnemonicParsing="false" text="" prefWidth="300">
+=======
+                            <RadioButton fx:id="btn_question1C" mnemonicParsing="false" text="">
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
                                 <font>
                                     <Font size="17.8" name="Arial"/>
                                 </font>
                             </RadioButton>
+<<<<<<< HEAD
                             <RadioButton fx:id="btn_question4D" mnemonicParsing="false" text="" prefWidth="300">
+=======
+                            <RadioButton fx:id="btn_question1D" mnemonicParsing="false" text="">
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
                                 <font>
                                     <Font size="17.8" name="Arial"/>
                                 </font>
@@ -184,6 +216,7 @@
                     </HBox>
                 </children>
             </VBox>
+<<<<<<< HEAD
             <VBox>  <!--第5题-->
                 <children>
                     <Label fx:id="question5Text" text="">
@@ -229,6 +262,9 @@
                     </Button>
                 </children>
             </HBox>
+=======
+
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
         </children>
     </VBox>
 </AnchorPane>

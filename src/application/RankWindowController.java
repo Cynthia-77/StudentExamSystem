@@ -11,8 +11,13 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import repository.IPersonRepository;
 import repository.Person;
 import repository.PersonRepository;
+<<<<<<< HEAD
 import java.net.URL;
 import java.util.Collections;
+=======
+
+import java.net.URL;
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
 import java.util.List;
 import java.util.ResourceBundle;
 
@@ -36,6 +41,7 @@ public class RankWindowController implements Initializable {
         ObservableList<Person> list = FXCollections.observableArrayList();
         IPersonRepository repository = new PersonRepository();
         List<Person> persons = repository.getPersons();
+<<<<<<< HEAD
         Collections.sort(persons);
 
         int rk = 1;
@@ -45,6 +51,9 @@ public class RankWindowController implements Initializable {
         }
 
         for (Person person : persons) {  //构建值对象
+=======
+        for (Person person:persons){  //构建值对象
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
 
             colRank.setCellValueFactory(new PropertyValueFactory("rank"));  //映射
             colAccount.setCellValueFactory(new PropertyValueFactory("account"));

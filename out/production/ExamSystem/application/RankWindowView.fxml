@@ -13,7 +13,11 @@
             xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="application.RankWindowController">
+<<<<<<< HEAD
     <VBox layoutX="0.0" layoutY="0.0" prefHeight="618.0" prefWidth="900.0" spacing="60" alignment="TOP_CENTER">
+=======
+    <VBox  layoutX="0.0" layoutY="0.0" prefHeight="618.0" prefWidth="900.0" spacing="60" alignment="TOP_CENTER">
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
         <children>
             <GridPane alignment="TOP_CENTER" hgap="10.0" vgap="10.0"
                       stylesheets="@../css/RankWindowViewCss.css">
@@ -29,8 +33,12 @@
                     <TableView fx:id="tableView" GridPane.columnIndex="0" GridPane.rowIndex="1">
                         <columns>
                             <TableColumn fx:id="colRank" text="排名" maxWidth="260.0" minWidth="60.0" prefWidth="140.0"/>
+<<<<<<< HEAD
                             <TableColumn fx:id="colAccount" text="学号" maxWidth="260.0" minWidth="60.0"
                                          prefWidth="140.0"/>
+=======
+                            <TableColumn fx:id="colAccount" text="学号" maxWidth="260.0" minWidth="60.0" prefWidth="140.0"/>
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
                             <TableColumn fx:id="colScore" text="成绩" maxWidth="260.0" minWidth="60.0" prefWidth="140.0"/>
                         </columns>
                     </TableView>
@@ -53,4 +61,8 @@
             </HBox>
         </children>
     </VBox>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7f8ea8b108b64fc649f385c109e75ff00ab1ceef
 </AnchorPane>
