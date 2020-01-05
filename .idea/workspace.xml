@@ -7,42 +7,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a294c51f-530e-453e-9fa5-43bc53dd9c49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ExamSystem_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/yangr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/info.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/sqlite-jdbc-3.30.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/Random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/IPersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/IQuestionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/PersonRepositoryHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/QuestionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/QuestionRepositoryHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExamSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/ExamWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/application/ExamWindowController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/ExamWindowView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/application/ExamWindowView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/LoginWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/application/LoginWindowController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/application/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/MainWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/application/MainWindowController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/RankWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/application/RankWindowController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/RankWindowView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/application/RankWindowView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/application/ScoreWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/application/ScoreWindowController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExamSystem/check/Check.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExamSystem/check/Check.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ExamWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ExamWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ExamWindowView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ExamWindowView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/LoginWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/LoginWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/MainWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/RankWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/RankWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/RankWindowView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/RankWindowView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ScoreWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ScoreWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/check/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/check/Check.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/info.db" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/info.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/ExamWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/ExamWindowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/ExamWindowView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/ExamWindowView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/LoginWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/LoginWindowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/MainWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/MainWindowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/RankWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/RankWindowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/RankWindowView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/RankWindowView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/ScoreWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/application/ScoreWindowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/check/Check.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/check/Check.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/repository/IPersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/repository/IPersonRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/repository/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/repository/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/repository/PersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/repository/PersonRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/repository/PersonRepositoryHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/repository/PersonRepositoryHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/repository/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/out/production/ExamSystem/repository/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/application/ExamWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/application/ExamWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/application/ExamWindowView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/application/ExamWindowView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/application/LoginWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/application/LoginWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/application/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/application/MainWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/application/RankWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/application/RankWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/application/RankWindowView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/application/RankWindowView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/application/ScoreWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/application/ScoreWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/check/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/check/Check.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/repository/IPersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/repository/IPersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/repository/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/repository/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/repository/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/repository/PersonRepositoryHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/repository/PersonRepositoryHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentExamSystem/src/repository/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentExamSystem/src/repository/Question.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Example1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15722656" />
     <property name="project.structure.side.proportion" value="0.2" />
